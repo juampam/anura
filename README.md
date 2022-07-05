@@ -4,6 +4,6 @@
 - The name of the directory is the title of the page
 - the style is taked of the styles directory, is just a copy
 ## To do
-- command to generate, publicate and save styles in the respectiev directory
+- command to generate, publicate and save styles in the respective directory
 - add differents components to the html file
 
