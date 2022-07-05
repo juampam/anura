@@ -1,23 +1,6 @@
-#=================================================================================
-#   __    _  _  __  __  ____    __
-#  /__\  ( \( )(  )(  )(  _ \  /__\              
-# /(__)\  )  (  )(__)(  )   / /(__)\         o  o
-#(__)(__)(_)\_)(______)(_)\_)(__)(__)       ( -- )       
-#     𝗛𝗧𝗠𝗟+𝗖𝗦𝗦 𝗖𝗟𝗜 𝗠𝗔𝗡𝗔𝗚𝗘𝗥               /\( ,   ,)/\
-#                                      ^^   ^^  ^^   ^^                                                         
-#==================================================================================
-
 import os
 import shutil
 
-'''print("welcome let's get started")
-print("Page title [Enter for default]: ")
-
-title = input()
-if title == "":
-    title = "Default tiltle"
-    '''
-#class css():
 
 def example():
     div = "\n\t\t<li><a href=\"#home\">Home</a></li>\n\t\t\t<li><a href=\"#news\">News</a></li>\n\t\t\t<li><a href=\"#contact\">Contact</a></li>\n\t\t\t<li><a href=\"#about\">About</a></li>"
@@ -26,6 +9,7 @@ def example():
     exp = nav + home
     print(exp)
     return exp
+
 def code():
     inp = input()
     ep = inp.split(sep = ' -')
@@ -48,7 +32,8 @@ def code():
                 name = str("index.html")
             else:
                 name = 'changeme.html'
-    if ep[0] == "create":
+
+if ep[0] == "create":
         bcx = title.title()
         os.mkdir(bcx)
         path = bcx +'/'+ name
