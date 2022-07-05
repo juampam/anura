@@ -4,7 +4,7 @@ ans="$1"
 export ans
 case $ans in
         "create")
-               cat << EOF > create.py
+               cat << EOF > commands/create.py
 #!/usr/bin/python3 -tt
 import subprocess
 import os
@@ -15,12 +15,23 @@ def example():
     nav = "\n\t<ul class=\"navbar\">" + div + "\n</ul> " 
     home = "<h1>Let's Jumping and Singing</h1>" + "\n<h3>Frogs are here!</h3>"
     exp = nav + home
-    print(exp)
     return exp
 
 name = str("index.html")
 bcx = "$2"
+
+sFile = "styles/"+"$3"
 os.mkdir(bcx)
+tFile = bcx + '/'+ 'style.css'
+fileHandle = open(sFile, "r")
+texts = fileHandle.readlines()
+fileHandle.close()
+fileHandle = open(tFile, "w")
+for s in texts:
+    fileHandle.write(s)
+fileHandle.close()
+print("$3"+" style added")
+
 path = bcx +'/'+ name
 bcontent = example()
 hcontent = str("\t<title>"+title+"</title>\n\t<link rel=\"stylesheet\" href=\"style.css\">\n\t<link rel = \'icon\' href=\"../logo.svg\" type = \"image/x-icon\"/>")
@@ -32,17 +43,10 @@ file.write("<!DOCTYPE HTML>" + os.linesep)
 file.write(head)
 file.write(body)
 file.close()
-file = open(stpath, "w")  
-#Static style (change)
-with open("Default") as f:
-        contents = f.readlines()
-        line = str(contents)
-file.write(line)
-file.close()
 EOF
-chmod 770 create.py
+chmod 770 commands/create.py
 
-./create.py
+./commands/create.py
 
 exit 0
                 ;;
@@ -51,5 +55,8 @@ exit 0
 		echo "anura <command> <arguments>"
 		echo "create <name> <style>"
                 ;;
+	"view")
+		echo "In progres xD"
+		;;
 esac
 
