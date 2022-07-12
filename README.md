@@ -15,5 +15,8 @@ in the project diretory execute whitout the greater-than symbols:
 ```
 ./anura create <ProjectName> <Stylename (blank for default)>
 ```
-
+Example
+```
+./anura create MyProject
+```
 
