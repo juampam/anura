@@ -21,13 +21,22 @@ Example using default css style
 ```
 ## Commands 
 
-| Command       | description               | options                           |  
-| ------------- | ------------------------- | --------------------------------- |
+| Command       | description               | options                           | arguments  
+| ------------- | ------------------------- | --------------------------------- |----------|
 | `create`      | create a new project      | `name` `style`                    |
 | `new`         | add new file in project   | `in` `--name`                     |
 | `add`         | Add a component in a file | `in` `--class` `--place` `--type` |
-| `style`       | Manage css files          | `create` `get` `upload`           |
+| `style`       | Manage css files          | `build` `get` `upload`            | `name` `colors` `images` 
 
-
-
-
+## Build Style example
+```
+anura style build MyStyle red,green,yellow,blue favicon.ico,background.svg
+```
+## Upload Style example
+```
+anura style upload MyStyle
+```
+## Get Style example
+```
+anura style get someuser/somestyle
+```
