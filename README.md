@@ -11,9 +11,9 @@
 ## Usage
 - create:
 
-in the project diretory execute:
+in the project diretory execute whitout the greater-than symbols:
 ```
-./anura create ProjectName Stylename
+./anura create <ProjectName> <Stylename (blank for default)>
 ```
-empty from default style
+
 
