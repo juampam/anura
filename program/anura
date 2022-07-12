@@ -9,19 +9,16 @@ case $ans in
 import subprocess
 import os
 import shutil
-title = "$2"
-def example():
-    div = "\n\t\t<li><a href=\"#home\">Home</a></li>\n\t\t\t<li><a href=\"#news\">News</a></li>\n\t\t\t<li><a href=\"#contact\">Contact</a></li>\n\t\t\t<li><a href=\"#about\">About</a></li>"
-    nav = "\n\t<ul class=\"navbar\">" + div + "\n</ul> " 
-    home = "<h1>Let's Jumping and Singing</h1>" + "\n<h3>Frogs are here!</h3>"
-    exp = nav + home
-    return exp
+import content
 
+title = "$2"
 name = str("index.html")
 bcx = "$2"
 stylevar = "$3"
+
 if stylevar == "":
 	stylevar = "example.css"
+
 sFile = "styles/"+ stylevar
 os.mkdir(bcx)
 tFile = bcx + '/'+ 'style.css'
@@ -35,8 +32,8 @@ fileHandle.close()
 print(stylevar +" style added")
 
 path = bcx +'/'+ name
-bcontent = example()
-hcontent = str("\t<title>"+title+"</title>\n\t<link rel=\"stylesheet\" href=\"style.css\">\n\t<link rel = \'icon\' href=\"../logo.svg\" type = \"image/x-icon\"/>")
+bcontent = content.example()
+hcontent = str("\t<title>"+title+"</title>") + content.head()
 head = str("<head>\n" + hcontent + "\n</head>\n")
 #componet = example()
 body = str("<body>\n"+bcontent+"\n</body>")
@@ -51,14 +48,18 @@ chmod 770 commands/create.py
 ./commands/create.py
 
 exit 0
+mv $2 folder
                 ;;
         "help")
                 echo "Anura usage:"
 		echo "anura <command> <arguments>"
 		echo "create <name> <style>"
                 ;;
-	"view")
-		echo "In progres xD"
+	"rename")
+		mv $2 $3
+		;;
+	"delete")
+		rm -rf $2
 		;;
 esac
 
