@@ -2,7 +2,7 @@
 import subprocess
 import os
 import shutil
-title = "Example"
+title = "Ganzo"
 def example():
     div = "\n\t\t<li><a href=\"#home\">Home</a></li>\n\t\t\t<li><a href=\"#news\">News</a></li>\n\t\t\t<li><a href=\"#contact\">Contact</a></li>\n\t\t\t<li><a href=\"#about\">About</a></li>"
     nav = "\n\t<ul class=\"navbar\">" + div + "\n</ul> " 
@@ -11,9 +11,11 @@ def example():
     return exp
 
 name = str("index.html")
-bcx = "Example"
-
-sFile = "styles/"+"example"
+bcx = "Ganzo"
+stylevar = ""
+if stylevar == "":
+	stylevar = "example.css"
+sFile = "styles/"+ stylevar
 os.mkdir(bcx)
 tFile = bcx + '/'+ 'style.css'
 fileHandle = open(sFile, "r")
@@ -23,7 +25,7 @@ fileHandle = open(tFile, "w")
 for s in texts:
     fileHandle.write(s)
 fileHandle.close()
-print("example"+" style added")
+print("stylevar"+" style added")
 
 path = bcx +'/'+ name
 bcontent = example()

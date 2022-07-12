@@ -19,8 +19,10 @@ def example():
 
 name = str("index.html")
 bcx = "$2"
-
-sFile = "styles/"+"$3"
+stylevar = "$3"
+if stylevar == "":
+	stylevar = "example.css"
+sFile = "styles/"+ stylevar
 os.mkdir(bcx)
 tFile = bcx + '/'+ 'style.css'
 fileHandle = open(sFile, "r")
@@ -30,7 +32,7 @@ fileHandle = open(tFile, "w")
 for s in texts:
     fileHandle.write(s)
 fileHandle.close()
-print("$3"+" style added")
+print(stylevar +" style added")
 
 path = bcx +'/'+ name
 bcontent = example()
