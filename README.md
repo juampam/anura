@@ -13,7 +13,7 @@
 
 in the project diretory execute whitout the greater-than symbols:
 ```
-./anura create <ProjectName> <Stylename>
+./anura create ProjectName Stylename
 ```
 Example using default css style
 ```
