@@ -40,5 +40,6 @@ anura style upload MyStyle
 ```
 anura style get someuser/somestyle
 ```
+-- 
 ### Need Fix:
 - write options in any order
