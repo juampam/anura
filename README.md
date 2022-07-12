@@ -1,6 +1,6 @@
 ![commit activity](https://img.shields.io/github/commit-activity/w/juampam/anura)
 ![commit activity](https://img.shields.io/github/contributors/juampam/anura)
-![commit activity]([https://img.shields.io/github/contributors/juampam/anura](https://img.shields.io/github/license/juampam/anura))
+![commit activity](https://img.shields.io/github/license/juampam/anura)
 # Anura
 ## For now
 - We can create a directory with a html index file and a css style file.
