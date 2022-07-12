@@ -9,7 +9,8 @@
 - Download and upload styles to the page
 
 ## Usage
-- create
+- create:
+
 in the project diretory execute:
 ```
 ./anura create ProjectName Stylename
