@@ -21,8 +21,9 @@ Example using default css style
 ```
 ## Commands 
 
-Command | options | description | arguments | 
---- | --- | --- | --- |--- |--- 
-create |  | create a new project | 290 | 
+| Command       | description             | options   
+| ------------- | ----------------------- | --------------- |
+| `create`      | create a new project    | `-d`            |
+| `new`         | add new file in project | `in` `--name`   |
 
 
