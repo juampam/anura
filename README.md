@@ -53,7 +53,7 @@ anura style get someuser/somestyle
 contributions are welcome, join us
 
 [<img src="https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white"/>](https://discord.com/channels/996898483401396384/996898483401396387)
-[<img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=discord&logoColor=white"/>](https://discord.com/channels/996898483401396384/996898483401396387)
+[<img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white"/>](https://discord.com/channels/996898483401396384/996898483401396387)
 
 
 
