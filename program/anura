@@ -23,9 +23,7 @@ exit 0
 mv $2 folder
                 ;;
         "help")
-                echo "Anura usage:"
-		echo "anura <command> <arguments>"
-		echo "create <name> <style>"
+                cat help
                 ;;
 	"rename")
 		mv $2 $3
@@ -33,5 +31,10 @@ mv $2 folder
 	"delete")
 		rm -rf $2
 		;;
+	"")
+		echo "No arguments, type 'anura help' to view commands information"
+		;;
+	*)
+		echo "$ans is not a anura command"
 esac
 
