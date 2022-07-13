@@ -21,6 +21,6 @@ in other words, we give to the user a name and they can do everything whit this 
 
 Each member can create their own styles and use other member's styles. The idea is to upload the files to the webapp, and access them with the CLI application. But the names styles always must be the same. this so that the application can access these styles and create html structures without having problems when calling classes
 
-#Ideas
+# Ideas
 
 Please write your ideas to organize the names of the CSS components.
