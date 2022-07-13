@@ -50,8 +50,8 @@ anura style get someuser/somestyle
 ---
 # Contribute
 contributions are welcome, join us
-[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="25"/>](https://discord.com/channels/996898483401396384/996898483401396387)
-![D](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white) ![Discord](https://img.shields.io/discord/996898483401396384?style=for-the-badge)
+[<img src="[https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)" width="25"/>](https://discord.com/channels/996898483401396384/996898483401396387)
+![Discord](https://img.shields.io/discord/996898483401396384?style=for-the-badge)
 
 
 
