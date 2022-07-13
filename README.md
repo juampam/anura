@@ -48,10 +48,10 @@ anura style get someuser/somestyle
 - write options in any order
 
 ---
-# Contribute [<img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>](https://discord.com/channels/996898483401396384/996898483401396387)
+# Contribute 
 
 contributions are welcome, join us
-
+[<img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>](https://discord.com/channels/996898483401396384/996898483401396387)
 
 
 
