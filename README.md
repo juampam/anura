@@ -51,5 +51,5 @@ anura style get someuser/somestyle
 # Contribute
 contributions are welcome, join us
 
-![](![Discord](https://img.shields.io/discord/996898483401396384)
+![Discord](https://img.shields.io/discord/996898483401396384)
 
