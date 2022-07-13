@@ -1,7 +1,7 @@
 #!/usr/bin/python3 -tt
 
 def getTitle():
-	title = "Example"
+	title = "Hola"
 	return title
 def getStyle():
 	style = ""

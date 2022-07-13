@@ -20,7 +20,7 @@ chmod 770 commands/index.py
 ./commands/index.py
 ./commands/functions.py
 exit 0
-mv $2 folder
+mv "$2" folder
                 ;;
         "help")
                 cat help
