@@ -49,7 +49,7 @@ anura style get someuser/somestyle
 
 ---
 # Contribute
-contributions are welcome, if you want be part of this project contact us
+contributions are welcome, join us
 
-![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)
+![https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white](discord.com)
 
