@@ -52,7 +52,7 @@ anura style get someuser/somestyle
 
 contributions are welcome, join us
 
-[<img src="https://img.shields.io/badge/Discord-7289DA?style=plastic&logo=discord&logoColor=white"/>](https://discord.com/channels/996898483401396384/996898483401396387)
+[<img src="https://img.shields.io/badge/Discord-7289DA?style=plastic&logo=discord&logoColor=indigo"/>](https://discord.com/channels/996898483401396384/996898483401396387)
 
 
 
