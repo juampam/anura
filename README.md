@@ -28,7 +28,7 @@ Example using default css style
 | `create`      | create a new project      | `name` `style`                    |
 | `new`         | add new file in project   | `in` `--name`                     |
 | `add`         | Add a component in a file | `in` `--class` `--place` `--type` |
-| `style`       | Manage css files          | `build` `get` `upload`            | `-name` `-colors` `-media` 
+| `style`       | Manage css files          | `build` `get` `upload`            | `-name` `-colors` `-media` `class` 
 
 ## Build Style example
 ```
