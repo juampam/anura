@@ -24,3 +24,4 @@ Each member can create their own styles and use other member's styles. The idea 
 # Ideas
 
 Please write your ideas to organize the names of the CSS components.
+select a way to help us
