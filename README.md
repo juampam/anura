@@ -51,5 +51,7 @@ anura style get someuser/somestyle
 # Contribute
 contributions are welcome, join us
 
+https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white
 ![Discord](https://img.shields.io/discord/996898483401396384)
+
 
