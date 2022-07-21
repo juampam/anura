@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Commit Activity](https://img.shields.io/github/commit-activity/w/juampam/anura)
+![Commit Activity](https://img.shields.io/github/commit-activity/w/juampam/anura?style=for-the-badge)
 ![Contributors](https://img.shields.io/github/contributors/juampam/anura)
 ![Licence](https://img.shields.io/github/license/juampam/anura)
 ![repo size](https://img.shields.io/github/repo-size/juampam/anura)
