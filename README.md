@@ -1,5 +1,15 @@
+<h1 align="center">
+  <img src="https://github.com/juampam/anura-css/blob/master/program/Example/img/anura.png?sanitize=true" alt="Anura CSS - HTML + CSS Builder">
+</h1>
 
-# Anura      ![Commit Activity](https://img.shields.io/github/commit-activity/w/juampam/anura) ![Contributors](https://img.shields.io/github/contributors/juampam/anura) ![Licence](https://img.shields.io/github/license/juampam/anura) ![repo size](https://img.shields.io/github/repo-size/juampam/anura)
+<div align="center">
+
+![Commit Activity](https://img.shields.io/github/commit-activity/w/juampam/anura)
+![Contributors](https://img.shields.io/github/contributors/juampam/anura)
+![Licence](https://img.shields.io/github/license/juampam/anura)
+![repo size](https://img.shields.io/github/repo-size/juampam/anura)
+
+</div>     
 
 ## For now
 - We can create a directory with a html index file and a css style file.
