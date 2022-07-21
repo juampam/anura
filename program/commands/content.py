@@ -8,5 +8,5 @@ def example():
     exp = nav + home
     return exp
 def head():
-    res = str("\t<title>"+title+"</title>\n\t<link rel=\"stylesheet\" href=\"style.css\">\n\t<link rel = \'icon\' href=\"../logo.svg\" type = \"image/x-icon\"/>")
+    res = str("\t<title>"+title+"</title>\n\t<link rel=\"stylesheet\" href=\"style.css\">\n\t<link rel = \'icon\' href=\"img/logo.ico\" type = \"image/x-icon\"/>")
     return res 
