@@ -1,63 +1,73 @@
-/** {
-  box-sizing: border-box;
-}*/
+/* GLOBAL VARIABLES */ 
+
+:root {
+	--color-01: #292930;
+	--color-02: #3EB650;
+	--color-03: #FCC133;
+	--color-04: #E12B38;
+}	
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
 }
 
-.header {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-}
-
-.row {
-  display: -webkit-flex;
-  display: flex;
-}
-
-.column {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  padding: 10px;
-}
-
-.footer {
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
-}
-
-@media (max-width: 600px) {
-  .row {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-  }
+h1{
+	color:#696969;
 }
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 li {
-  float: left;
+  	float: left;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+ 	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+
+
+li a:hover{
+	opacity:0.9;
 }
+
+.navbar{
+	display: flex;
+	width: 100%;	
+	justify-content: space-between;
+	background-color: #292930;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	margin-left:10px;
+}
+
+.alert{
+	background-color: #FCC133;
+	color: #292930;
+}
+.main-title{
+	font-size:60px ;
+	font-style: bold;
+	color:#696969;
+}
+#home{
+	padding:15%;
+	display: flex;
+	justify-content:center;
+	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+	height: 100%
+}
+
