@@ -20,7 +20,7 @@
 - add differents components to the html file
 - Download and upload styles to the page
 
-## Usage
+## Usage (Testing)
 - create:
 
 in the project diretory execute:
