@@ -42,15 +42,15 @@ Example using default css style
 
 ## Build Style example
 ```
-anura style build -name MyStyle -colors red,green,yellow,blue -media favicon.ico,background.svg
+anura build style
 ```
 ## Upload Style example
 ```
-anura style upload MyStyle
+anura sharestyle MyStyle
 ```
 ## Get Style example
 ```
-anura style get someuser/somestyle
+anura getstyle someuser/somestyle
 ```
 --- 
 
