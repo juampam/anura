@@ -18,7 +18,7 @@ EOF
 chmod 770 commands/index.py
 #chmod 770 commands/functions.py
 ./commands/index.py
-./commands/functions.py
+./commands/create.py
 exit 0
 mv "$2" folder
                 ;;
@@ -28,8 +28,14 @@ mv "$2" folder
 	"rename")
 		mv $2 $3
 		;;
-	"delete")
-		rm -rf $2
+	"build")
+		cat << EOF > commands/exc.py
+#!/usr/bin/python3 -tt
+import build
+build.buildstyle()
+EOF
+chmod 770 commands/exc.py
+./commands/exc.py
 		;;
 	"")
 		echo "No arguments, type 'anura help' to view commands information"
