@@ -1,14 +1,13 @@
 
 Anura-CSS - Helper
 
-Actions							Command		options
+Actions							Command			  option
 
-create a new directory whit HTML and CSS files		create		name, style
+create a new directory whit HTML and CSS files ........ create	................. name, style
+create a new file in a pre-created directory .......... new ("in" subcommand) ... location, extension, name
+build a css style ..................................... build ................... 'this command exec a UI'
+add a html component in a .html file .................. add("in" subcommand) .... location, position, class
 
-create a new file in a pre-created directory		new		location, extension, name
 
-build a css style					build		'this command exec a UI'
-
-add a html component in a .html file			add		location, position, class
 
 
