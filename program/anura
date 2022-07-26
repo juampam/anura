@@ -16,7 +16,7 @@ def getStyle():
 
 EOF
 chmod 770 commands/index.py
-#chmod 770 commands/functions.py
+chmod 770 commands/create.py
 ./commands/index.py
 ./commands/create.py
 exit 0

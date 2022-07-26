@@ -1,3 +1,9 @@
 #!/usr/bin/python3 -tt
-import build
-build.buildstyle()
+
+def getTitle():
+	title = ""
+	return title
+def getStyle():
+	style = ""
+	return style
+
