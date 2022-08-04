@@ -1,11 +1,9 @@
 #!/usr/bin/python3 -tt
-import subprocess
+import build
+from subprocess import Popen
 import os
 import shutil
 from termcolor import colored
-from scipy.spatial import KDTree
-import webcolors  #css3_hex_to_names
-import matplotlib
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -21,20 +19,10 @@ class bcolors:
 def buildstyle():
     print(f"{bcolors.OKBLUE}Building a CSS style, please type:{bcolors.ENDC}")
     name = str(input(f"{bcolors.HEADER}Name: {bcolors.ENDC} "))
-    colors = str(input(f"{bcolors.BOLD}Colors (HEX, 4 separated by space): {bcolors.ENDC}"))
-    synt_col = colors.split(" ")
-    
-    for i in synt_col:
-        print("working")
-        fchar = i[0]
-        #add if,else to add or not sharp symbol < -- HERE
-        yourstring = "#{0}".format(i) # --> Add sharp symbol to the start of the string < -- ELSE HERE
-        normalized = webcolors.normalize_hex(yourstring)
-        finalcol = webcolors.hex_to_name(normalized)
-        fop = str(finalcol)
-        print(colored(finalcol, fop))
-          #  named_color = css3_hex_to_names(#fff)
-        
+    colors = str(input(f"{bcolors.BOLD}Colors (HEX codes separated by space): {bcolors.ENDC}"))
+    synt_col = colors.split(" #")
+    zero = synt_col[0]
+    ppy = zero[1:]
     x = 1
     while x == 1:
         modify_p = str(input(f"{bcolors.BOLD}Modify features for general settings? [Y/n] {bcolors.ENDC}"))
@@ -56,10 +44,17 @@ def buildstyle():
             y = 2
         elif modify_c.lower() == "n":
             print(f"{bcolors.WARNING}Using Anura default in components settings{bcolors.ENDC} ")
-            print(f"{bcolors.OKGREEN}Done ;){bcolors.ENDC}")
+            os.system('clear')
+            print(f"{bcolors.OKGREEN}"+ name +" style generated\n"+ bcolors.ENDC)
             y = 2 
         else:
             y = 1
+    print("Components: Default")
+    print("New Classes: False")
+    print("Color scheme:")
+    Process=Popen('./script.sh %s %s %s %s' % (str(ppy),str(synt_col[1]),str(synt_col[2]),str(synt_col[3]),), shell=True)
+    print("")
 # ------------------- -- -- - Build file - -- -- ---------------------------------
     
+    #for x in synt_col:
 
