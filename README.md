@@ -34,11 +34,12 @@ Example using default css style
 ## Commands 
 
 | Command       | description               | options                           | arguments  
-| ------------- | ------------------------- | --------------------------------- |----------|
-| `create`      | create a new project      | `name` `style`                    |
-| `new`         | add new file in project   | `in` `--name`                     |
-| `add`         | Add a component in a file | `in` `--class` `--place` `--type` |
-| `style`       | Manage css files          | `build` `get` `upload`            | `-name` `-colors` `-media` `class` 
+| ------------- | ------------------------- | --------------------------------- |------------------------------------
+| `create`      | create a new project      | `name` `style`                    
+| `new`         | add new file in project   | `in` `--name`                     
+| `add`         | Add a component in a file | `in` `--class` `--place` `--type` 
+| `in`       	| select project, also can used like a command option           | `project name`  `name`   | `-f` `-p`
+| `build`	| build diferent things	    | `colorscheme` `component` `style`	|
 
 ## Build Style example
 ```
