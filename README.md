@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/juampam/anura-css/blob/master/program/Example/img/anura.png?sanitize=true" alt="Anura CSS - HTML + CSS Builder" width="75%">
+  <img src="https://github.com/juampam/anura-css/blob/master/program/styles/anura.png?sanitize=true" alt="Anura CSS - HTML + CSS Builder" width="75%">
 </h1>
 
 <div align="center">
