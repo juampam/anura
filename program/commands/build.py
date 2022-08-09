@@ -52,7 +52,7 @@ def buildstyle():
     print("Components: Default")
     print("New Classes: False")
     print("Color scheme:")
-    Process=Popen('./script.sh %s %s %s %s' % (str(ppy),str(synt_col[1]),str(synt_col[2]),str(synt_col[3]),), shell=True)
+    Process=Popen('./printcolor.sh %s %s %s %s' % (str(ppy),str(synt_col[1]),str(synt_col[2]),str(synt_col[3]),), shell=True)
     print("")
 # ------------------- -- -- - Build file - -- -- ---------------------------------
     
