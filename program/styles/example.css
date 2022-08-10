@@ -1,3 +1,33 @@
-/*
- 
-WAITING DATA
+$primary:#292930;
+$secundary:#3eb650;
+$success:#fcc133;
+$danger:#e12b38;
+$warning:#292930;
+$light:#292930;
+$dark:#fff;
+.active{color: lime;}
+.hidden{
+	display: none;
+	visibility: hidden;
+}
+.disable{hola}
+.affix{hola}
+.alert{hola}
+.alert-danger{hola}
+.btn{hola}
+.caption{hola}
+.caret{hola}
+.carousel{hola}
+.center-block{hola}
+.checkbox{hola}
+.checkbox-inline{hola}
+.danger{hola}
+.img-circle{hola}
+.label{hola}
+.invisible{hola}
+.container{hola}
+.navbar{hola}
+.anura_prev{hola}
+.media{hola}
+.next{hola}
+.panel{hola}

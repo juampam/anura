@@ -80,7 +80,7 @@ EOF
 			((n=n+1))
 			sed -i "$n s/hola/$line/g" styles/example.css
 			echo $n
-		done < styles/.settings  # > styles/example.css 
+		done < styles/.settings 
 	;;
 	"in")
 		Pfind

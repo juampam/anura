@@ -4,7 +4,7 @@ from subprocess import Popen
 import os
 import shutil
 from termcolor import colored
-class bcolors:
+    class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
     OKCYAN = '\033[96m'
@@ -54,6 +54,7 @@ def buildstyle():
     print("Color scheme:")
     Process=Popen('./printcolor.sh %s %s %s %s' % (str(ppy),str(synt_col[1]),str(synt_col[2]),str(synt_col[3]),), shell=True)
     print("")
+    
 # ------------------- -- -- - Build file - -- -- ---------------------------------
     
     #for x in synt_col:
