@@ -19,7 +19,8 @@ Pfind(){
 
 case $ans in
         "create")
-               cat << EOF > commands/index.py
+		touch styles/example.css
+               	cat << EOF > commands/index.py
 #!/usr/bin/python3 -tt
 
 def getTitle():
@@ -61,13 +62,25 @@ EOF
 		mv $2 $3
 		;;
 	"build")
-		cat << EOF > commands/exc.py
+#		cat << EOF > commands/exc.py
 #!/usr/bin/python3 -tt
-import build
-build.buildstyle()
-EOF
-chmod 770 commands/exc.py
-./commands/exc.py
+#import build
+#build.buildstyle()
+#EOF
+#chmod 770 commands/exc.py
+#./commands/exc.py
+
+		while IFS= read -r line
+		do	
+			echo $line
+		done < styles/.names > styles/example.css 
+
+		while IFS= read -r line
+		do	
+			((n=n+1))
+			sed -i "$n s/hola/$line/g" styles/example.css
+			echo $n
+		done < styles/.settings  # > styles/example.css 
 	;;
 	"in")
 		Pfind
