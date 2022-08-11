@@ -13,7 +13,10 @@
 
 ## Usage (Testing)
 *Note: Only the next commands are available:*
+
 **create** | **build** | **remove**
+
+*Another Note: This program is designed to run on GNU/Linux*
 
 ### Commands 
 
