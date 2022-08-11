@@ -14,18 +14,18 @@
 # Structures
 ## General
 
-	Project
-	├── index.html
-	|	└── Components 
-	|		├── classes
-	|		└── Identifiers
-	└── style.css 	
+Project
+├── index.html
+|	└── Components 
+|		├── classes
+|		└── Identifiers
+└── style.css 	
 
 ## Style
 
-	css file
-	├── Identifiers
-	└── classes
+css file
+├── Identifiers
+└── classes
 
 ## Usage (Testing)
 - create:
