@@ -57,7 +57,9 @@ Example using default css style
 ---
 # Contribute 
 
-Together everything is better! Join us
+Together everything is better! Join us.
+
+**Need help to create the config of a lot of CSS classes**
 
 [<img src="https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white"/>](https://discord.gg/22XF2sGC)
 [<img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white"/>](https://t.me/+axasghbryK9mMWIx)
