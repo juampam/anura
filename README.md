@@ -12,11 +12,13 @@
 </div>     
 
 ## Usage (Testing)
-*Note: Only the next commands are available:*
+
+*Note: This program is designed to run on GNU/Linux*
+
+*Another Note: currently, only the next commands are available:*
 
 **create** | **build** | **remove**
 
-*Another Note: This program is designed to run on GNU/Linux*
 
 ### Commands 
 
