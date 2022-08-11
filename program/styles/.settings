@@ -1,12 +1,19 @@
+margin: 0; padding: 0; border: 0; 
 #292930
 #3eb650
 #fcc133
 #e12b38
 #292930
 #292930
-#fff
+#111
+font-family: "Helvetica", Sans-Serif;
 color: lime;
-\n\tdisplay: none;\n\tvisibility: hidden;\n
+display: none;visibility: hidden;
 background: #ccc;
-
-# SOLVE ERROR: CHANGE BREAK LINE FOR ANOTHER SYMB
+position: fixed;top: 0;left: 0;width: 100%;z-index: 9999;display: none;
+border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;
+list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: var(--primary);
+float: left;
+display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;
+background-color: var(--secundary);
+background-color: var(--secundary);

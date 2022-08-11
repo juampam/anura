@@ -79,6 +79,8 @@ EOF
 		do	
 			((n=n+1))
 			sed -i "$n s/hola/$line/g" styles/example.css
+			#sed -i "$n s/BL/\n/g" styles/example.css &
+			#sed -i "$n s/TB/\t/g" styles/example.css &
 			echo $n
 		done < styles/.settings 
 	;;

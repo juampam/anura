@@ -1,29 +1,28 @@
 # Convention of classes, variables and identifiers for CSS files.
----
+
 #### Please drop your ideas [here](#Ideas).
----
-# Required Features
+## Required Features
 
 - Color themes
 - Classes/components names
 - features for single class
 
-# How it works
+## How it works
 
 Anura-css provides the classes names, the user writhe his own settings for each class.
 
-## Builded styles
-### Structure
+### Builded styles
+#### Structure
 
 - Names (Default)
 - Settings (Created by the user)
 - CSS file (result)
 
-## Community styles
+### Community styles
 
 Each member can create their own styles and use other member's styles. The idea is to upload the files to the webapp, and access them with the CLI application. But the names styles always must be the same. this so that the application can access these styles and create html structures without having problems when calling classes
 
-# Ideas
+## Ideas
 
 Please write your ideas to organize the names of the CSS components.
 select a way to help us

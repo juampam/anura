@@ -11,25 +11,32 @@
 
 </div>     
 
-## For now
-- We can create a directory with a html index file and a css style file.
-- The name of the directory is the title of the page
-- the style is taked of the styles directory, is just a copy
-## To do
-- command to generate, publicate and save styles in the respective directory
-- add differents components to the html file
-- Download and upload styles to the page
+# Structures
+## General
+
+	Project
+	├── index.html
+	|	└── Components 
+	|		├── classes
+	|		└── Identifiers
+	└── style.css 	
+
+## Style
+
+	css file
+	├── Identifiers
+	└── classes
 
 ## Usage (Testing)
 - create:
 
 in the project diretory execute:
 ```
-./anura create ProjectName Stylename
+./anura.sh create ProjectName Stylename
 ```
 Example using default css style
 ```
-./anura create MyProject
+./anura.sh create MyProject
 ```
 ## Commands 
 
@@ -43,20 +50,18 @@ Example using default css style
 
 ## Build Style example
 ```
-anura build style
+./anura.sh build style
 ```
 ## Upload Style example
 ```
-anura sharestyle MyStyle
+./anura.sh sharestyle MyStyle
 ```
 ## Get Style example
 ```
-anura getstyle someuser/somestyle
+./anura.sh getstyle someuser/somestyle
 ```
 --- 
 
-### Need Fix:
-- write options in any order
 
 ---
 # Contribute 
