@@ -11,34 +11,11 @@
 
 </div>     
 
-# Structures
-## General
-
-Project
-├── index.html
-|	└── Components 
-|		├── classes
-|		└── Identifiers
-└── style.css 	
-
-## Style
-
-css file
-├── Identifiers
-└── classes
-
 ## Usage (Testing)
-- create:
+*Note: Only the next commands are available:*
+**create** | **build** | **remove**
 
-in the project diretory execute:
-```
-./anura.sh create ProjectName Stylename
-```
-Example using default css style
-```
-./anura.sh create MyProject
-```
-## Commands 
+### Commands 
 
 | Command       | description               | options                           | arguments  
 | ------------- | ------------------------- | --------------------------------- |------------------------------------
@@ -48,15 +25,26 @@ Example using default css style
 | `in`       	| select project, also can used like a command option           | `project name`  `name`   | `-f` `-p`
 | `build`	| build diferent things	    | `colorscheme` `component` `style`	|
 
-## Build Style example
+### create project example: *(Ready)*	
+
+in the project diretory execute:
 ```
-./anura.sh build style
+./anura.sh create ProjectName Stylename
 ```
-## Upload Style example
+Example using default css style
+```
+./anura.sh create MyProject
+```
+
+### Build Style example *(Ready)*
+```
+./anura.sh build
+```
+### Upload Style example *(Comming soon)*
 ```
 ./anura.sh sharestyle MyStyle
 ```
-## Get Style example
+### Get Style example *(Comming soon)*
 ```
 ./anura.sh getstyle someuser/somestyle
 ```
