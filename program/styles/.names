@@ -17,3 +17,5 @@ li{hola}
 li a{hola}
 li a:hover{hola}
 .bg-sec{hola}
+.dim{hola}
+.container{hola}

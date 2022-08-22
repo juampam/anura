@@ -70,7 +70,7 @@ def create():
         elif str(e) == errsty or str(e) == errhtml: 
             print("Anura Error: "+ sFile + " does not exist")
     
-    # ADDING THE PROJECT TU PROJECT HISTORY FILE
+    # ADDING THE PROJECT TO PROJECT HISTORY FILE
     
 
 create()

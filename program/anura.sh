@@ -50,7 +50,7 @@ EOF
 		chmod 770 commands/create.py
 		./commands/index.py
 		./commands/create.py
-		chmod -w $2
+#		chmod -w $2
 		exit 0
 		#mv "$2" folder
                 ;;
