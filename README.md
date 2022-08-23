@@ -20,7 +20,10 @@
 **create** | **build** | **remove**
 
 ---
+## The Goal
 
+Create a library whit a lot of classes, easy to combine for create elements with very puntuals characteristics.
+The program must be able to create any news settings, classes and components. It is thinked to work in community, each user can create his own configurations and share them whit the rest. the main settings to consider are the components. A component is a collection of classes, designed to create specific parts that require them. That allow call them easyly, copying or calling them for CLI. We hope create a tool for create this components following standar parameters, that to avoid errors where there are used. 
 
 ---
 # Contribute 
