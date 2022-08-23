@@ -22,8 +22,7 @@
 ---
 ## The Goal
 
-Create a library whit a lot of classes, easy to combine for create elements with very puntuals characteristics.
-The program must be able to create any news settings, classes and components. It is thinked to work in community, each user can create his own configurations and share them whit the rest. the main settings to consider are the components. A component is a collection of classes, designed to create specific parts that require them. That allow call them easyly, copying or calling them for CLI. We hope create a tool for create this components following standar parameters, that to avoid errors where there are used. 
+Create a library with many classes, easy to combine to create elements with very specific characteristics. The program must be able to create any new configuration, classes and components. It is designed to work in community, each user can create their own configurations and share them with the rest. the main settings to consider are the components. A component is a collection of classes, designed to create specific parts that require them. That allow them to be called easily, copying them or calling them by CLI. We hope to create a tool to create these components following standard parameters, to avoid errors where they are used.
 
 ---
 # Contribute 
