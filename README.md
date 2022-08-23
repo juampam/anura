@@ -13,11 +13,7 @@
 
 ## Usage (Testing)
 
-*Note: This program is designed to run on GNU/Linux*
-
-*Another Note: currently, only the next commands are available:*
-
-**create** | **build** | **remove**
+*Note: This program is designed to run on GNU/Linux, however, to use the library is not necesary install the program, just need copy the styles online*
 
 ---
 ## The Goal
