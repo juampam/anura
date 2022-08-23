@@ -19,41 +19,7 @@
 
 **create** | **build** | **remove**
 
-
-### Commands 
-
-| Command       | description               | options                           | arguments  
-| ------------- | ------------------------- | --------------------------------- |------------------------------------
-| `create`      | create a new project      | `name` `style`                    
-| `new`         | add new file in project   | `in` `--name`                     
-| `add`         | Add a component in a file | `in` `--class` `--place` `--type` 
-| `in`       	| select project, also can used like a command option           | `project name`  `name`   | `-f` `-p`
-| `build`	| build diferent things	    | `colorscheme` `component` `style`	|
-
-### create project example: *(Ready)*	
-
-in the project diretory execute:
-```
-./anura.sh create ProjectName Stylename
-```
-Example using default css style
-```
-./anura.sh create MyProject
-```
-
-### Build Style example *(Ready)*
-```
-./anura.sh build
-```
-### Upload Style example *(Comming soon)*
-```
-./anura.sh sharestyle MyStyle
-```
-### Get Style example *(Comming soon)*
-```
-./anura.sh getstyle someuser/somestyle
-```
---- 
+---
 
 
 ---
