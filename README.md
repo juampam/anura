@@ -13,7 +13,7 @@
 
 ## Usage (Testing)
 
-*Note: This program is designed to run on GNU/Linux, however, to use the library is not necesary install the program, just need copy the styles online*
+*Note: This program is designed to run on GNU/Linux, however, to use the library is not necesary install the program, just need use the published styles*
 
 ---
 ## The Goal
