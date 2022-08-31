@@ -1,4 +1,10 @@
 #!/bin/bash
+# -- PATHS --
+# Used from stable version
+STYLES="/etc/anura-css/styles"
+COMMANDS="/etc/anura-css/commands"
+PDATA="/etc/anura-css/data"
+
 
 ans="$1"
 export ans
@@ -37,13 +43,13 @@ EOF
 			STYFIND=$(ls styles | grep $3)
 			if [ ! -z $STYFIND ]
 			then
-				echo -e $2,$3,$LOC,up >> .data/projects.csv
+				echo -e $2,$3,$LOC,up >> .data/projects
 			else
 				echo "$(tput setaf 1)$(tput bold)Err:$(tput sgr0) File not created, cause:$(tput setaf 7)" 
 			fi
 		else
 			echo $(tput setaf 2)$2 branch: 1$(tput setaf 7)
-			echo -e $2,default,$LOC,up >> .data/projects.csv
+			echo -e $2,default,$LOC,up >> .data/projects
 		fi
 		
 		chmod 770 commands/index.py
@@ -87,7 +93,8 @@ EOF
 	"in")
 		Pfind
 		FPTH=$PTH/$2
-		echo $FPTH
+	#	echo $FPTH
+		./lotus.sh $var
 	;;
 	"remove")
 		chmod +w $2
