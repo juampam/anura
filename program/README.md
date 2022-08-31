@@ -35,5 +35,13 @@ The script is disigned to run in any directory, for this reason, the projects ar
 
 ## Branches
 (comming soon)
-Every change must be recorded, for name the changes you can add `#NAME` to the end of the command, or automactly has been named like the hour exactly when the change was saved
-
+Every change must be recorded, for name the changes you can add `#<NAME>` to the end of the command, or automactly has been named like the hour exactly when the change was saved.
+Example
+```
+anura lottus
+in myProject.cont remove navbar.cmp #NavBar component removed from contact.html
+```
+output
+```
+myProject  cont.html remove navbar.cmp  NavBar component removed from contact.html  12345
+```
