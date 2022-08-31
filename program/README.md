@@ -43,5 +43,6 @@ in myProject.cont remove navbar.cmp #NavBar component removed from contact.html
 ```
 output
 ```
-myProject  cont.html remove navbar.cmp  NavBar component removed from contact.html  12345
+myProject       cont.html remove navbar.cmp         NavBar component removed from contact.html         12345
+Changes applied successfully
 ```
