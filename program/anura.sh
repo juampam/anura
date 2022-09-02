@@ -91,10 +91,15 @@ EOF
 		done < styles/.settings 
 	;;
 	"in")
-		Pfind
-		FPTH=$PTH/$2
-	#	echo $FPTH
-		./lotus.sh $var
+		if [ ! -z $2 ]
+		then
+			Pfind
+			FPTH=$PTH/$2
+		#	echo $FPTH
+			./lotus.sh $var
+		else
+			echo "Anura-css: In what?"
+		fi
 	;;
 	"remove")
 		chmod +w $2
