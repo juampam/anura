@@ -18,5 +18,7 @@ display: block;color: white;text-align: center;padding: 14px 16px;text-decoratio
 background-color: var(--secundary);
 background-color: var(--secundary);
 color: #2B2A29;
-width:60%;box-shadow: 1px 1px 1px 1px grey;margin:10px;background-color: #E0D8D6;display:flex;justify-content: center
+container-type: inline-size;container-name: sidebar;
+margin: auto; width: 60%; padding:10px; text-align:center;
+display:flex;align-items:center; height:600px;
 
