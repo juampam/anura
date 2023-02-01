@@ -4,7 +4,7 @@ title = str(geted)
 def example():
     div = "\n\t\t<li>\n\t<a href=\"#home\">Home</a></li>\n\t\t\t<li><a href=\"#news\">News</a></li>\n\t\t\t<li><a href=\"#contact\">Contact</a></li>\n\t\t\t<li><a href=\"#about\">About</a></li>"
     nav = "\n\t<ul class=\"navbar\">" + div + "\n\t</ul>\n"
-    home = "\t<div class=\"container\">\n\t<h1 class=\"dim\">We are here, let's change this</h1>" + "\n\t<h3 class=\"dim\">Find instructions and more styles here</h3>\n\t<a class = \"btn bg-sec\" href=\"#\">Coming soon</a>\n\t</div>"
+    home = "\t<div class=\"container\">\n\t<h1 class=\"dim\">This is just the beginning</h1>" + "\n\t<h3 class=\"dim\">Find instructions and more styles here</h3>\n\t<a class = \"btn bg-sec\" href=\"https://github.com/juampam/anura-css\">Git Repo</a>\n\t</div>"
     exp = nav + home
     return exp
 def head():
