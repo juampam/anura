@@ -11,11 +11,13 @@ body{font-family: Helvetica, sans-serif;}
 .hidden{display: none;visibility: hidden;}
 .disable{background: #ccc;}
 .affix{position: fixed;top: 0;left: 0;width: 100%;z-index: 9999;display: none;}
-.btn{border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+.btn{border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;border-radius:2px;}
 .navbar{list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: var(--primary);}
 li{float: left;}
 li a{display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
 li a:hover{background-color: var(--secundary);}
 .bg-sec{background-color: var(--secundary);}
 .dim{color: #2B2A29;}
-.container{width:60%;box-shadow: 1px 1px 1px 1px grey;margin:10px;background-color: #E0D8D6;display:flex;justify-content: center}
+.container{container-type: inline-size;container-name: sidebar;}
+.center {margin: auto; width: 60%; padding:10px; text-align:center;}
+.test {display:flex;align-items:center; height:600px;}
