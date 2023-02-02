@@ -1,6 +1,9 @@
+#!/bin/bash
+
 # Modeling from tags 
 
-tag(<var class id >cont</>)
+tag="<var class=CON id=CON> cont </>"
 
 # new tag(var class id "cont")
-
+HG=$(echo $tag | awk '{print $0}')
+echo $HG  # "${HG/var/$1}"
